@@ -32,6 +32,8 @@ app.post('/register', (req, res) => {
 
   //save 하기 전에 암호화 시켜야 함 #10 bcrypt
   //User.js modified
+  
+  //1:13
 
   //mongoDB method
   user.save((err, doc) => {
